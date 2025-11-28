@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ψ-Analyzer</title>
+    <link rel="stylesheet" href="Psi_style.css">
+    <script src="Psi.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="grid-section header-section" id="header-section">
+        <div class="header-content">
+            <div class="logo-container">
+                <span class="logo-prefix">THE</span> <span class="logo-psi">Ψ</span>-ANALYZER
+            </div>
+            <div class="header-tagline">
+                QUANTUM-INSPIRED FINANCIAL SENTIMENT ENGINE
+                <span class="version-tag">V.0.0.1</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero-section" class="grid-section hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">DECODING THE ENTANGLED MARKET STATE</h1>
+                <p class="hero-subtitle">The Ψ-Analyzer breaks free from binary sentiment, modeling the true, ambiguous nature of financial emotion in a quantum-inspired continuum.</p>
+                <button id="cta-analyze-btn" class="cta-button">INITIATE ANALYSIS PROTOCOL</button>
+            </div>
+            <div class="hero-image-placeholder">
+                </div>
+        </section>
+
+        <section id="input-section" class="grid-section data-panel">
+            <div class="panel-header">
+                <h2>// INPUT_STREAM_MODULE</h2>
+                <span class="status-indicator">ACTIVE</span>
+            </div>
+            <div class="panel-content">
+                <textarea id="source-text" placeholder="PASTE FINANCIAL DATA STREAM HERE: NEWS ARTICLE, REDDIT THREAD, SOCIAL MEDIA FEED..."></textarea>
+                <button id="analyze-btn" class="neon-button">RUN SENTIMENT DECOHERENCE // EXECUTE</button>
+            </div>
+        </section>
+
+        <section id="results-section" class="grid-section data-panel hidden">
+            <div class="panel-header">
+                <h2>// QUANTUM_MEASUREMENT_UNIT</h2>
+                <span class="status-indicator">ONLINE</span>
+            </div>
+            <div class="panel-content result-display">
+                <div class="gauge-grid">
+                    <div class="gauge-container">
+                        <div class="gauge-label">OPTIMISM <span class="state-label">($|+\rangle$)</span></div>
+                        <div class="gauge">
+                            <div class="gauge-fill" id="positive-fill"></div>
+                        </div>
+                        <div class="gauge-value" id="positive-value"></div>
+                    </div>
+                    <div class="gauge-container">
+                        <div class="gauge-label">CAUTION <span class="state-label">($|-\rangle$)</span></div>
+                        <div class="gauge">
+                            <div class="gauge-fill" id="negative-fill"></div>
+                        </div>
+                        <div class="gauge-value" id="negative-value"></div>
+                    </div>
+                </div>
+                <div id="trigger-message" class="trigger-box">
+                    <span class="trigger-prefix">[STATUS]</span> <span class="trigger-text">Awaiting Measurement...</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-section" class="grid-section about-section">
+            <div class="panel-header">
+                <h2>// ABOUT_THE_PSI_ANALYZER</h2>
+                <span class="status-indicator">INFO</span>
+            </div>
+            <div class="panel-content">
+                <div class="about-grid">
+                    <div class="about-item">
+                        <h3>01 // FUZZY LOGIC CORE</h3>
+                        <p>Models human emotions as a spectrum, not binaries. Captures "partially positive, partially negative" states for nuanced understanding.</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>02 // QUANTUM COGNITION</h3>
+                        <p>Inspired by quantum mechanics, it resolves paradoxes. Sentiment exists in a superposition, revealing true market ambiguity.</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>03 // PREDICTIVE TRIGGERS</h3>
+                        <p>Generates actionable market signals, especially during volatile periods like recessions or crypto crashes, for advanced trading strategies.</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>04 // REAL-TIME ADAPTION</h3>
+                        <p>Designed to process live data streams, providing instantaneous insights into evolving market psychology.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="grid-section footer-section">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="logo-prefix">THE</span> <span class="logo-psi">Ψ</span>-ANALYZER
+            </div>
+            <div class="footer-links">
+                <a href="#header-section">HOME</a>
+                <a href="#input-section">ANALYZE</a>
+                <a href="#about-section">ABOUT</a>
+                <a href="https://danielemelike75@gmail.com">REPORT BUG</a>
+            </div>
+            <p class="copyright">[[ SYSTEM_STATUS: ONLINE | 2025 &copy; TAURUS_LABS ]]</p>
+        </div>
+    </footer>
+
+</body>
+</html>
