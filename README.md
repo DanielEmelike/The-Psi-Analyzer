@@ -2,7 +2,7 @@
 
 
 
-## 🌟 The $\Psi$-Analyzer: Quantum-Inspired Financial Sentiment Engine
+## The $\Psi$-Analyzer: Quantum-Inspired Financial Sentiment Engine
 
 The **$\Psi$-Analyzer** is a web application that implements a **Quantum-Inspired Fuzzy Sentiment Engine** to analyze financial text. It models market emotion not as a simple positive/negative binary, but as a superposition state where opposing sentiments (Optimism and Caution) can coexist, inspired by quantum cognition principles. This ambiguity is then resolved through a **"Decoherence"** process, yielding a final, actionable market signal.
 
@@ -12,7 +12,7 @@ The project is structured as a **Client-Server Architecture**:
 
 - **Frontend (HTML/CSS/JS):** Provides a interactive **Matrix-themed** user interface.
 
-### ⚙️ Core Technology
+### Core Technology
 
 The analytical core (`Psi_app.py`) utilizes a hybrid approach:
 
@@ -37,7 +37,7 @@ This process mimics the act of observation forcing the sentiment into a measurab
 | **HOLD\_AMBIGUITY** | CRITICAL STATE: SUPERPOSITION DETECTED. High volatility likely. | Conflict Term $C > 0.20$ |
 | **NEUTRAL** | Low momentum/low conflict. | Default/Else |
 
-### 🚀 Getting Started
+### Getting Started
 
 These instructions detail how to get the $\Psi$-Analyzer running on your local machine.
 
